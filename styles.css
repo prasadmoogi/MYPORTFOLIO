@@ -1,4 +1,4 @@
-/* Basic Reset */
+/* Global Styles */
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +6,6 @@
   scroll-behavior: smooth;
 }
 
-/* Global Styles */
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
@@ -118,6 +117,50 @@ main {
   font-weight: bold;
 }
 
+.experience-item {
+  margin-bottom: 2rem;
+}
+
+.education-item {
+  margin-bottom: 2rem;
+}
+
+.freelance ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.freelance li {
+  margin-bottom: 1rem;
+}
+
+.achievements ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.achievements li {
+  margin-bottom: 1rem;
+}
+
+.hobbies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobbies li {
+  margin-bottom: 1rem;
+}
+
+.extracurricular ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.extracurricular li {
+  margin-bottom: 1rem;
+}
+
 footer {
   background-color: #212121;
   color: #FFFFFF;
@@ -150,7 +193,7 @@ footer .social-icons a {
   transition: color 0.3s;
 }
 
-footer .social-icons a:hover {
+footer.social-icons a:hover {
   color: #FFC107;
 }
 
